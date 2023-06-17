@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+
+    >
+
+    <LinearLayout
+        android:id="@+id/TopLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        >
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/instagramtexticon"
+            />
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="170dp"
+            android:background="@drawable/heart"
+            />
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="30dp"
+            android:background="@drawable/messenger"
+            />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/TopLayout"
+        app:layout_constraintBottom_toTopOf="@+id/BotomLayout"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageButton
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_margin="14dp"
+                        android:id="@+id/s_1"
+                        android:src="@drawable/hritikroshan"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:background="@drawable/rounded_corner"
+                        />
+
+                    <ImageButton
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_margin="14dp"
+                        android:id="@+id/s_2"
+                        android:src="@drawable/shahrukhkhan"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:background="@drawable/rounded_corner"
+                        />
+
+                    <ImageButton
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_margin="14dp"
+                        android:id="@+id/s_3"
+                        android:src="@drawable/hritikroshan"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:background="@drawable/rounded_corner"
+                        />
+
+                    <ImageButton
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_margin="14dp"
+                        android:id="@+id/s_4"
+                        android:src="@drawable/shahrukhkhan"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:background="@drawable/rounded_corner"
+                        />
+
+                    <ImageButton
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_margin="14dp"
+                        android:id="@+id/s_5"
+                        android:src="@drawable/hritikroshan"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:background="@drawable/rounded_corner"
+                        />
+
+                    <ImageButton
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_margin="14dp"
+                        android:id="@+id/s_6"
+                        android:src="@drawable/shahrukhkhan"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:background="@drawable/rounded_corner"
+                        />
+
+                    <ImageButton
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_margin="14dp"
+                        android:id="@+id/s_7"
+                        android:src="@drawable/hritikroshan"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:background="@drawable/rounded_corner"
+                        />
+
+                    <ImageButton
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_margin="14dp"
+                        android:id="@+id/s_8"
+                        android:src="@drawable/shahrukhkhan"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:background="@drawable/rounded_corner"
+                        />
+
+                    <ImageButton
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_margin="14dp"
+                        android:id="@+id/s_9"
+                        android:src="@drawable/hritikroshan"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:background="@drawable/rounded_corner"
+                        />
+
+                    <ImageButton
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_margin="14dp"
+                        android:id="@+id/s_10"
+                        android:src="@drawable/shahrukhkhan"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:background="@drawable/rounded_corner"
+                        />
+
+                    <ImageButton
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_margin="14dp"
+                        android:id="@+id/s_11"
+                        android:src="@drawable/hritikroshan"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:background="@drawable/rounded_corner"
+                        />
+
+                    <ImageButton
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_margin="14dp"
+                        android:id="@+id/s_12"
+                        android:src="@drawable/shahrukhkhan"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:background="@drawable/rounded_corner"
+                        />
+
+                    <ImageButton
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_margin="14dp"
+                        android:id="@+id/s_13"
+                        android:src="@drawable/hritikroshan"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:background="@drawable/rounded_corner"
+                        />
+
+                    <ImageButton
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_margin="14dp"
+                        android:id="@+id/s_14"
+                        android:src="@drawable/shahrukhkhan"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:background="@drawable/rounded_corner"
+                        />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="2dp"
+                    android:layout_weight="9"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="#9A9595"
+                    />
+            </LinearLayout>
+
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+                >
+
+                <VideoView
+                    android:id="@+id/videoView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintTop_toTopOf="@+id/videoView"
+                    android:background="@android:color/transparent"
+                    >
+                    <ImageButton
+                        app:layout_constraintHorizontal_weight="@android:integer/status_bar_notification_info_maxnum"
+                        android:id="@+id/s_20"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="14dp"
+                        android:layout_marginLeft="14dp"
+                        android:layout_marginBottom="14dp"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/rounded_corner"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/hritikroshan"
+                        />
+
+                    <TextView
+                        android:layout_marginStart="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:text="HritikRoshan"
+                        />
+
+                    <ImageButton
+                        android:layout_marginStart="200dp"
+                        android:layout_width="25dp"
+                        android:layout_height="28dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/dotstr"
+                        />
+                </LinearLayout>
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+                >
+
+                <VideoView
+                    android:id="@+id/videoView_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintTop_toTopOf="@+id/videoView_2"
+                    android:background="@android:color/transparent"
+                    >
+                    <ImageButton
+                        app:layout_constraintHorizontal_weight="@android:integer/status_bar_notification_info_maxnum"
+                        android:id="@+id/s_21"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="14dp"
+                        android:layout_marginLeft="14dp"
+                        android:layout_marginBottom="14dp"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/rounded_corner"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/hritikroshan"
+                        />
+
+                    <TextView
+                        android:layout_marginStart="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:text="HritikRoshan"
+                        />
+
+                    <ImageButton
+                        android:layout_marginStart="200dp"
+                        android:layout_width="25dp"
+                        android:layout_height="28dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/dotstr"
+                        />
+                </LinearLayout>
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+                >
+
+                <VideoView
+                    android:id="@+id/videoView_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintTop_toTopOf="@+id/videoView_3"
+                    android:background="@android:color/transparent"
+                    >
+                    <ImageButton
+                        app:layout_constraintHorizontal_weight="@android:integer/status_bar_notification_info_maxnum"
+                        android:id="@+id/s_22"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="14dp"
+                        android:layout_marginLeft="14dp"
+                        android:layout_marginBottom="14dp"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/rounded_corner"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/hritikroshan"
+                        />
+
+                    <TextView
+                        android:layout_marginStart="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:text="HritikRoshan"
+                        />
+
+                    <ImageButton
+                        android:layout_marginStart="200dp"
+                        android:layout_width="25dp"
+                        android:layout_height="28dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/dotstr"
+                        />
+                </LinearLayout>
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/BotomLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:paddingTop="10dp"
+        android:paddingBottom="40dp"
+        >
+
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/homepage"
+            android:layout_marginStart="40dp"
+            />
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/search"
+            android:layout_marginStart="50dp"
+            />
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/cpost"
+            android:layout_marginStart="50dp"
+            />
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/reels"
+            android:layout_marginStart="50dp"
+            />
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/idphoto"
+            android:layout_marginStart="50dp"
+            />
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

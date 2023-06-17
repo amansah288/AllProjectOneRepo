@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <!-- Base application theme. -->
+        <style name="AppTheme" parent="Theme.AppCompat.Light">
+            <!-- Customize your theme here. -->
+            <item name="windowActionBar">false</item>
+            <item name="windowNoTitle">true</item>
+            <item name="colorPrimary">@color/colorPrimary</item>
+            <item name="colorPrimaryDark">@color/colorBlack</item>
+            <item name="colorAccent">@color/colorAccent</item>
+            <item name="android:textAllCaps">false</item>
+            <item name="navigationViewStyle">@style/Widget.Design.NavigationView</item>
+        </style>
+
+        <style name="AppTheme.ActionBar">
+            <item name="windowActionBar">true</item>
+            <item name="windowNoTitle">false</item>
+            <item name="android:textColorSecondary">@color/colorWhite</item>
+            <item name="android:textColorPrimary">@color/colorWhite</item>
+        </style>
+
+    <color name="colorPrimary" />
+    <color name="colorBlack">#221F1F</color>
+    <color name="colorAccent">#F44336</color>
+    <color name="colorWhite">#FFFFFF</color>
+</resources>
